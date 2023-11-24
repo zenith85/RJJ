@@ -1,0 +1,2 @@
+4:4[AM]          1:1[AM]  OFF     Channel:3
+6:6[AM]          3:5[AM]  OFF     Channel:2
