@@ -18,6 +18,8 @@ This program is a GUI controller that works and is tested for Windows 10 OS. It 
 
 NetBeans → Right-click on project → Properties → Libraries → Add Library.
 
+Current password is "admin" or "admin1"
+
 ------------------------------------------------------
 
 # 원격-SBC-ARM-Cortex-A7-프로세서-컨트롤러
@@ -39,6 +41,3 @@ NetBeans → Right-click on project → Properties → Libraries → Add Library
 - 주의: SSH에 대한 jsch-0.1.55.jar를 추가해야 할 수 있습니다.
 
 NetBeans → 프로젝트에서 오른쪽 클릭 → 속성 → 라이브러리 → 라이브러리 추가.
-
-
-    
