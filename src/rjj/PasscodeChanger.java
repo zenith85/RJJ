@@ -145,9 +145,9 @@ public class PasscodeChanger extends javax.swing.JFrame {
 //all gettext() down bellow is changed to get password. Deprecated. As of Java 2 platform v1.2, replaced by getPassword
     private void change_passcode_now()
     {
-        if (New_Passcode_field.getPassword().equals(Re_new_passcode_field.getPassword()))
+        if (String.valueOf(New_Passcode_field.getPassword()).equals(String.valueOf(Re_new_passcode_field.getPassword())))
         {
-            if (New_Passcode_field.getPassword().equals("") || Re_new_passcode_field.getPassword().equals(""))
+            if (String.valueOf(New_Passcode_field.getPassword()).equals("") || String.valueOf(Re_new_passcode_field.getPassword()).equals(""))
             {
                 Error_Show_Frame Error_banner=new Error_Show_Frame();
                 Error_banner.setVisible(true);
